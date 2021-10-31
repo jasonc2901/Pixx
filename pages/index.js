@@ -1,17 +1,19 @@
 import Head from 'next/head';
-import Header from '../components/Header';
+import Feed from '../components/FeedComponents/Feed';
+import Header from '../components/HeaderComponents/Header';
 
 export default function Home() {
   return (
-    <div>
+    <div className='bg-gray-50 h-screen overflow-y-scroll scrollbar-hide'>
       <Head>
-        <title>Instagram Clone</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Pixx</title>
+        <link rel="icon" href="/pixx.ico" />
       </Head>
-      {/* Header Component */}
+
       <Header />
-      {/* Feed Component */}
-      {/* Modal Component */}
+      <Feed />
+
+      {/* TODO: Modal Component */}
     </div>
   )
 }
