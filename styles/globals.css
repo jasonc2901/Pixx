@@ -14,4 +14,8 @@
     .profileIcon {
         @apply h-10 hover:scale-125 transition-all ease-out border-2 border-purple-700 rounded-full w-10 p-[1.5px]
     }
+
+    .postBtn {
+        @apply h-7 hover:scale-125 cursor-pointer transition-all duration-150 ease-out
+    }
 }

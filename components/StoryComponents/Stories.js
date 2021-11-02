@@ -17,7 +17,7 @@ function Stories() {
         <div className='flex space-x-2 p-6 
         bg-white mt-8 border border-gray-200 
         rounded-sm overflow-x-scroll scrollbar-thin
-        scrollbar-thumb-purple-800'>
+        scrollbar-thumb-purple-800 mx-2'>
             {users.map(user => (
                 <Story key={user.id} img={user.avatar} username={user.username} />
             ))}
